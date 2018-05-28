@@ -1,0 +1,3 @@
+[submodule "cxxhttp"]
+	path = cxxhttp
+	url = https://github.com/ef-gy/cxxhttp.git
