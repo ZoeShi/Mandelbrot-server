@@ -7,10 +7,13 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/l/CLionProjects/Mandelbrot Server/Mandelbrot.cpp" "/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o"
   "/home/l/CLionProjects/Mandelbrot Server/main.cpp" "/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/main.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../cxxhttp/include"
+  "../cxxhttp/dependencies/libefgy/include"
+  "../cxxhttp/dependencies/asio/asio/include"
   )
 
 # Targets to which this target links.

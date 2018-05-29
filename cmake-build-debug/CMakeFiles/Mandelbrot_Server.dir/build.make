@@ -60,28 +60,28 @@ include CMakeFiles/Mandelbrot_Server.dir/flags.make
 CMakeFiles/Mandelbrot_Server.dir/main.cpp.o: CMakeFiles/Mandelbrot_Server.dir/flags.make
 CMakeFiles/Mandelbrot_Server.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Mandelbrot_Server.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mandelbrot_Server.dir/main.cpp.o -c "/home/l/CLionProjects/Mandelbrot Server/main.cpp"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mandelbrot_Server.dir/main.cpp.o -c "/home/l/CLionProjects/Mandelbrot Server/main.cpp"
 
 CMakeFiles/Mandelbrot_Server.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mandelbrot_Server.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/l/CLionProjects/Mandelbrot Server/main.cpp" > CMakeFiles/Mandelbrot_Server.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/l/CLionProjects/Mandelbrot Server/main.cpp" > CMakeFiles/Mandelbrot_Server.dir/main.cpp.i
 
 CMakeFiles/Mandelbrot_Server.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mandelbrot_Server.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/l/CLionProjects/Mandelbrot Server/main.cpp" -o CMakeFiles/Mandelbrot_Server.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/l/CLionProjects/Mandelbrot Server/main.cpp" -o CMakeFiles/Mandelbrot_Server.dir/main.cpp.s
 
 CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o: CMakeFiles/Mandelbrot_Server.dir/flags.make
 CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o: ../Mandelbrot.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o -c "/home/l/CLionProjects/Mandelbrot Server/Mandelbrot.cpp"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o -c "/home/l/CLionProjects/Mandelbrot Server/Mandelbrot.cpp"
 
 CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/l/CLionProjects/Mandelbrot Server/Mandelbrot.cpp" > CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/l/CLionProjects/Mandelbrot Server/Mandelbrot.cpp" > CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.i
 
 CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/l/CLionProjects/Mandelbrot Server/Mandelbrot.cpp" -o CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/l/CLionProjects/Mandelbrot Server/Mandelbrot.cpp" -o CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.s
 
 # Object files for target Mandelbrot_Server
 Mandelbrot_Server_OBJECTS = \

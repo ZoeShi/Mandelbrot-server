@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="Mandelbrot_Server"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
@@ -42,14 +42,16 @@
 				<Option working_dir="/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/libefgy/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/asio/asio/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/lib/clang/6.0.0/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
@@ -64,14 +66,16 @@
 				<Option working_dir="/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/libefgy/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/asio/asio/include"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.0/include-fixed"/>
+					<Add directory="/usr/lib/clang/6.0.0/include"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
