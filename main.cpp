@@ -9,78 +9,71 @@
 #include <sstream>
 #include <omp.h>
 
-/*
- * real_from = -2
-real_to = 1
-imaginary_from = -1
-imaginary_to = 1
-intervall = 0.007
-x_steps = 430
-y_steps = 287
+struct InputParameters {
+    double real_from;
+    double real_to;
+    double imaginary_from;
+    double imaginary_to;
+    double interval;
+    int max_iteration;
+};
 
- */
-
-int php_range_count (double start, double end, double step) {
-    double __calc_size = ((end - start) / step) + 1;
-    //int size = std::round (__calc_size);
-    int size = std::trunc (__calc_size);
-    return size;
-}
+int php_range_count (double start, double end, double step);
 
 std::vector<int> run_mandelbrot_loops(double real_from, double imaginary_to, double interval, int max_iteration,
                                       int x_steps, int y_steps);
 
-std::string process (const std::string &input) {
+InputParameters json_to_input_parameters(const nlohmann::json &j);
 
+InputParameters input_json_string_to_params(const std::string &input);
+
+std::string response_vector_to_json_string (const std::vector<int> &iterations_vector);
+
+int php_range_count (double start, double end, double step) {
+    double __calc_size = ((end - start) / step) + 1;
+    int size = std::trunc (__calc_size);
+    return size;
+}
+
+InputParameters input_json_string_to_params(const std::string &input) {
+    // Transform input to lower case, so that the JSON key names are case insensitive
     std::string input_lower (input);
-    std::transform(input_lower.begin(), input_lower.end(), input_lower.begin(), ::tolower);
+    transform(input_lower.begin(), input_lower.end(), input_lower.begin(), tolower);
 
-    std::cout << input_lower << std::endl;
-
+    // Load into stream and parse into json object
     std::stringstream mandelbrot_json(input_lower);
-
     nlohmann::json j;
     mandelbrot_json >> j;
+    auto params = json_to_input_parameters(j);
+    return params;
+}
 
-    double real_from = j["realfrom"];
-    double real_to = j["realto"];
-    double imaginary_from = j["imaginaryfrom"];
-    double imaginary_to = j["imaginaryto"];
-    double interval = j["interval"];
-    int max_iteration = j["maxiteration"];
-
-
-    std::cout << "real_from = " << real_from << "\n";
-    std::cout << "real_to = " << real_to << "\n";
-    std::cout << "imaginary_from = " << imaginary_from << "\n"; 
-    std::cout << "imaginary_to = " << imaginary_to << "\n";
-    std::cout << "interval = " << interval << "\n";
-
-    int x_steps = php_range_count(real_from, real_to, interval);
-    int y_steps = php_range_count(imaginary_from, imaginary_to, interval);
-    std::cout << "x_steps = " << x_steps << "\n";
-    std::cout << "y_steps = " << y_steps << "\n";
-
-    std::vector<int> iterations_vector;
-    iterations_vector = run_mandelbrot_loops(real_from, imaginary_to, interval, max_iteration, x_steps, y_steps);
-
-    std::cout.flush();
-
-    std::stringstream output_json_strstream;
-
+std::string response_vector_to_json_string (const std::vector<int> &iterations_vector) {
     nlohmann::json output_json;
-
     output_json["response"] = iterations_vector;
 
-    //output_json_strstream << std::setw(4) << output_json << std::endl;
+    std::stringstream output_json_strstream;
     output_json_strstream << output_json << std::endl;
     return output_json_strstream.str ();
+}
+
+InputParameters json_to_input_parameters(const nlohmann::json &j) {
+    InputParameters params;
+    params.real_from = j["realfrom"];
+    params.real_to = j["realto"];
+    params.imaginary_from = j["imaginaryfrom"];
+    params.imaginary_to = j["imaginaryto"];
+    params.interval = j["interval"];
+    params.max_iteration = j["maxiteration"];
+    return params;
 }
 
 std::vector<int> run_mandelbrot_loops(double real_from, double imaginary_to, double interval, int max_iteration,
                                       int x_steps, int y_steps) {
     std::vector<std::vector<int>> iterations_vectors (x_steps);
 
+    // Run mandelbrot function on each complex number (= point x, y)
+    // For some reason when OMP is on, the function only works the first time it is called
 // #pragma omp parallel for
     for (int x = 0; x < x_steps; x++) {
         double real = real_from + x * interval;
@@ -91,6 +84,7 @@ std::vector<int> run_mandelbrot_loops(double real_from, double imaginary_to, dou
         }
     }
 
+    // Copy together computed lines into one big array
     std::vector<int> iterations_vector;
     for(auto &v : iterations_vectors) {
         iterations_vector.insert(end(iterations_vector), begin(v), end(v));
@@ -98,17 +92,36 @@ std::vector<int> run_mandelbrot_loops(double real_from, double imaginary_to, dou
     return iterations_vector;
 }
 
+std::string process (const std::string &input) {
+    // Read input parameters from JSON
+    auto params = input_json_string_to_params(input);
+
+    // Calc number of steps in each direction (PHP-like!)
+    int x_steps = php_range_count(params.real_from, params.real_to, params.interval);
+    int y_steps = php_range_count(params.imaginary_from, params.imaginary_to, params.interval);
+
+    // Get vector with results
+    auto iterations_vector = run_mandelbrot_loops(params.real_from, params.imaginary_to,
+                                                  params.interval, params.max_iteration, x_steps, y_steps);
+
+    // Get response JSON via json parser into stream and then into string
+    auto output_json = response_vector_to_json_string (iterations_vector);
+    return output_json;
+}
 
 using namespace cxxhttp;
 
 static void main_servlet (http::sessionData &session, std::smatch &) {
+    // Get POST data from client, process and return reply
     std::string input = session.content;
     std::string reply = process (input);
     session.reply(200, reply);
 }
 
+// Servlet for direct URL (POST)
 static http::servlet servlet("/", ::main_servlet, "POST");
 
 int main(int argc, char *argv[]) {
+    // Run HTTP server
     return cxxhttp::main(argc, argv);
 }
