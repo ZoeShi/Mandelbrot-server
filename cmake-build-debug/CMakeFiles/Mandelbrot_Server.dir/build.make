@@ -94,6 +94,12 @@ Mandelbrot_Server_EXTERNAL_OBJECTS =
 Mandelbrot_Server: CMakeFiles/Mandelbrot_Server.dir/main.cpp.o
 Mandelbrot_Server: CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o
 Mandelbrot_Server: CMakeFiles/Mandelbrot_Server.dir/build.make
+Mandelbrot_Server: /usr/lib/libboost_system.so
+Mandelbrot_Server: /usr/lib/libboost_thread.so
+Mandelbrot_Server: /usr/lib/libboost_filesystem.so
+Mandelbrot_Server: /usr/lib/libboost_chrono.so
+Mandelbrot_Server: /usr/lib/libboost_date_time.so
+Mandelbrot_Server: /usr/lib/libboost_atomic.so
 Mandelbrot_Server: CMakeFiles/Mandelbrot_Server.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Mandelbrot_Server"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Mandelbrot_Server.dir/link.txt --verbose=$(VERBOSE)

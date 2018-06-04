@@ -1,4 +1,19 @@
 /home/l/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/182.2574.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" "/home/l/CLionProjects/Mandelbrot Server"
+-- Boost version: 1.66.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   chrono
+--   date_time
+--   atomic
+-- Boost version: 1.66.0
+-- Found the following Boost libraries:
+--   system
+--   thread
+--   filesystem
+--   chrono
+--   date_time
+--   atomic
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/l/CLionProjects/Mandelbrot Server/cmake-build-debug

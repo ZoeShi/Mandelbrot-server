@@ -1,1 +1,1 @@
-/usr/bin/clang++   -fopenmp -g   CMakeFiles/Mandelbrot_Server.dir/main.cpp.o CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o  -o Mandelbrot_Server 
+/usr/bin/clang++   -fopenmp -g   CMakeFiles/Mandelbrot_Server.dir/main.cpp.o CMakeFiles/Mandelbrot_Server.dir/Mandelbrot.cpp.o  -o Mandelbrot_Server /usr/lib/libboost_system.so /usr/lib/libboost_thread.so /usr/lib/libboost_filesystem.so /usr/lib/libboost_chrono.so /usr/lib/libboost_date_time.so /usr/lib/libboost_atomic.so 

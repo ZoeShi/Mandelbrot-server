@@ -6,5 +6,5 @@ CXX_FLAGS =  -fopenmp -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/home/l/CLionProjects/Mandelbrot Server/cxxhttp/include" -I"/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/libefgy/include" -I"/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/asio/asio/include" 
+CXX_INCLUDES = -I"/home/l/CLionProjects/Mandelbrot Server/Simple-Web-Server" 
 

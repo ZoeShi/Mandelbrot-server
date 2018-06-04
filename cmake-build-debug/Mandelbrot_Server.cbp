@@ -5,7 +5,7 @@
 		<Option title="Mandelbrot_Server"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Simple-Web-Server\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/l/CLionProjects/Mandelbrot Server/cmake-build-debug"/>
@@ -44,9 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/include"/>
-					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/libefgy/include"/>
-					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/asio/asio/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/Simple-Web-Server"/>
 					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
 					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
@@ -68,9 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="clang"/>
 				<Compiler>
-					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/include"/>
-					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/libefgy/include"/>
-					<Add directory="/home/l/CLionProjects/Mandelbrot Server/cxxhttp/dependencies/asio/asio/include"/>
+					<Add directory="/home/l/CLionProjects/Mandelbrot Server/Simple-Web-Server"/>
 					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0"/>
 					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/x86_64-pc-linux-gnu"/>
 					<Add directory="/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/8.1.0/../../../../include/c++/8.1.0/backward"/>
@@ -100,6 +96,9 @@
 		</Unit>
 		<Unit filename="/home/l/CLionProjects/Mandelbrot Server/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/l/CLionProjects/Mandelbrot Server/Simple-Web-Server/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Simple-Web-Server\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

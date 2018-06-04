@@ -3,6 +3,6 @@
     "RealTo": 1,
     "ImaginaryFrom": 0.001,
     "ImaginaryTo": 1,
-    "Intervall": 0.001,
+    "Interval": 0.001,
     "MaxIteration": 100
 }

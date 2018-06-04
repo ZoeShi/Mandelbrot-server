@@ -12,8 +12,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f591309-7c0e-4b11-a492-9e5ecfe59fed" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Simple-Web-Server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Mandelbrot_Server.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Mandelbrot_Server" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Mandelbrot_Server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Mandelbrot_Server.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Mandelbrot_Server.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cxxhttp" beforeDir="false" afterPath="$PROJECT_DIR$/cxxhttp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mandelbrot.json" beforeDir="false" afterPath="$PROJECT_DIR$/mandelbrot.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,65 +64,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxxhttp/include/cxxhttp/network.h">
+        <entry file="file://$PROJECT_DIR$/Simple-Web-Server/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-              <folding>
-                <element signature="e#2044#2083#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxxhttp/include/cxxhttp/httpd.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1785">
-              <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mandelbrot.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" lean-forward="true" selection-start-line="7" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Mandelbrot.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxxhttp/include/cxxhttp/http-session.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5385">
-              <caret line="359" column="17" selection-start-line="359" selection-start-column="10" selection-end-line="359" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mandelbrot.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="420">
+              <caret line="61" selection-start-line="58" selection-end-line="61" />
             </state>
           </provider>
         </entry>
@@ -108,280 +82,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="237">
+              <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#154#180#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/json.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="1177" column="29" selection-start-line="1177" selection-start-column="26" selection-end-line="1177" selection-end-column="29" />
-              <folding>
-                <element signature="e#1544#1590#0" expanded="true" />
-                <element signature="e#2128#2167#0" expanded="true" />
-                <element signature="e#2615#2649#0" expanded="true" />
-                <element signature="e#2682#3228#0" expanded="true" />
-                <element signature="e#2691#2733#0" expanded="true" />
-                <element signature="e#2789#2819#0" expanded="true" />
-                <element signature="e#3076#3088#0" expanded="true" />
-                <element signature="e#3144#3180#0" expanded="true" />
-                <element signature="e#3566#3590#0" expanded="true" />
-                <element signature="e#4152#4245#0" expanded="true" />
-                <element signature="e#4335#4521#0" expanded="true" />
-                <element signature="e#5082#5162#0" expanded="true" />
-                <element signature="e#5448#5564#0" expanded="true" />
-                <element signature="e#5635#5691#0" expanded="true" />
-                <element signature="e#5730#5780#0" expanded="true" />
-                <element signature="e#5821#5877#0" expanded="true" />
-                <element signature="e#6107#6170#0" expanded="true" />
-                <element signature="e#6337#6388#0" expanded="true" />
-                <element signature="e#8613#8638#0" expanded="true" />
-                <element signature="e#9297#9307#0" expanded="true" />
-                <element signature="e#9505#9532#0" expanded="true" />
-                <element signature="e#9599#9611#0" expanded="true" />
-                <element signature="e#9816#9837#0" expanded="true" />
-                <element signature="e#10036#10070#0" expanded="true" />
-                <element signature="e#10107#10145#0" expanded="true" />
-                <element signature="e#10291#10306#0" expanded="true" />
-                <element signature="e#10477#10479#0" expanded="true" />
-                <element signature="e#10541#10543#0" expanded="true" />
-                <element signature="e#10607#10623#0" expanded="true" />
-                <element signature="e#11320#11330#0" expanded="true" />
-                <element signature="e#11379#11389#0" expanded="true" />
-                <element signature="e#11430#11453#0" expanded="true" />
-                <element signature="e#11563#11572#0" expanded="true" />
-                <element signature="e#11690#11702#0" expanded="true" />
-                <element signature="e#11760#11762#0" expanded="true" />
-                <element signature="e#11933#11962#0" expanded="true" />
-                <element signature="e#12019#12031#0" expanded="true" />
-                <element signature="e#12266#12318#0" expanded="true" />
-                <element signature="e#12388#12432#0" expanded="true" />
-                <element signature="e#12782#12831#0" expanded="true" />
-                <element signature="e#13294#13330#0" expanded="true" />
-                <element signature="e#13780#13828#0" expanded="true" />
-                <element signature="e#14351#14377#0" expanded="true" />
-                <element signature="e#14448#14512#0" expanded="true" />
-                <element signature="e#15033#15097#0" expanded="true" />
-                <element signature="e#15495#15531#0" expanded="true" />
-                <element signature="e#15625#15792#0" expanded="true" />
-                <element signature="e#16211#16247#0" expanded="true" />
-                <element signature="e#16307#16487#0" expanded="true" />
-                <element signature="e#16833#16869#0" expanded="true" />
-                <element signature="e#16914#17039#0" expanded="true" />
-                <element signature="e#17312#17369#0" expanded="true" />
-                <element signature="e#17747#17796#0" expanded="true" />
-                <element signature="e#17979#17991#0" expanded="true" />
-                <element signature="e#18058#18070#0" expanded="true" />
-                <element signature="e#18159#18192#0" expanded="true" />
-                <element signature="e#37854#37879#0" expanded="true" />
-                <element signature="e#40645#40678#0" expanded="true" />
-                <element signature="e#41328#41572#0" expanded="true" />
-                <element signature="e#42420#42444#0" expanded="true" />
-                <element signature="e#42770#42794#0" expanded="true" />
-                <element signature="e#43116#43140#0" expanded="true" />
-                <element signature="e#43272#43296#0" expanded="true" />
-                <element signature="e#43431#43455#0" expanded="true" />
-                <element signature="e#43589#43694#0" expanded="true" />
-                <element signature="e#43885#43909#0" expanded="true" />
-                <element signature="e#44277#44410#0" expanded="true" />
-                <element signature="e#44861#44974#0" expanded="true" />
-                <element signature="e#45310#45364#0" expanded="true" />
-                <element signature="e#45834#45888#0" expanded="true" />
-                <element signature="e#46484#46535#0" expanded="true" />
-                <element signature="e#46747#47149#0" expanded="true" />
-                <element signature="e#47479#47636#0" expanded="true" />
-                <element signature="e#48582#49121#0" expanded="true" />
-                <element signature="e#50140#50190#0" expanded="true" />
-                <element signature="e#50331#50391#0" expanded="true" />
-                <element signature="e#50590#50632#0" expanded="true" />
-                <element signature="e#50810#50846#0" expanded="true" />
-                <element signature="e#51071#51107#0" expanded="true" />
-                <element signature="e#51370#51626#0" expanded="true" />
-                <element signature="e#51663#51699#0" expanded="true" />
-                <element signature="e#52224#52258#0" expanded="true" />
-                <element signature="e#52723#52732#0" expanded="true" />
-                <element signature="e#52771#52773#0" expanded="true" />
-                <element signature="e#52834#52858#0" expanded="true" />
-                <element signature="e#53063#53065#0" expanded="true" />
-                <element signature="e#53125#53149#0" expanded="true" />
-                <element signature="e#53351#53375#0" expanded="true" />
-                <element signature="e#53582#53584#0" expanded="true" />
-                <element signature="e#53650#53674#0" expanded="true" />
-                <element signature="e#53893#53895#0" expanded="true" />
-                <element signature="e#53964#53988#0" expanded="true" />
-                <element signature="e#54213#54215#0" expanded="true" />
-                <element signature="e#54283#54307#0" expanded="true" />
-                <element signature="e#54530#54532#0" expanded="true" />
-                <element signature="e#54591#54615#0" expanded="true" />
-                <element signature="e#54819#54843#0" expanded="true" />
-                <element signature="e#55053#55246#0" expanded="true" />
-                <element signature="e#55563#55587#0" expanded="true" />
-                <element signature="e#55930#56047#0" expanded="true" />
-                <element signature="e#56368#56370#0" expanded="true" />
-                <element signature="e#56430#56454#0" expanded="true" />
-                <element signature="e#56660#56684#0" expanded="true" />
-                <element signature="e#56896#57067#0" expanded="true" />
-                <element signature="e#57431#57557#0" expanded="true" />
-                <element signature="e#57677#57841#0" expanded="true" />
-                <element signature="e#57973#57997#0" expanded="true" />
-                <element signature="e#58151#58268#0" expanded="true" />
-                <element signature="e#58458#58660#0" expanded="true" />
-                <element signature="e#58875#59074#0" expanded="true" />
-                <element signature="e#59286#59391#0" expanded="true" />
-                <element signature="e#59630#59654#0" expanded="true" />
-                <element signature="e#59786#60059#0" expanded="true" />
-                <element signature="e#60197#60310#0" expanded="true" />
-                <element signature="e#60449#60473#0" expanded="true" />
-                <element signature="e#60629#60786#0" expanded="true" />
-                <element signature="e#60926#60950#0" expanded="true" />
-                <element signature="e#61108#61268#0" expanded="true" />
-                <element signature="e#61387#61429#0" expanded="true" />
-                <element signature="e#61532#61592#0" expanded="true" />
-                <element signature="e#61719#61761#0" expanded="true" />
-                <element signature="e#61933#61969#0" expanded="true" />
-                <element signature="e#62230#62266#0" expanded="true" />
-                <element signature="e#62523#62779#0" expanded="true" />
-                <element signature="e#62816#62852#0" expanded="true" />
-                <element signature="e#63295#63322#0" expanded="true" />
-                <element signature="e#68846#69145#0" expanded="true" />
-                <element signature="e#69359#69658#0" expanded="true" />
-                <element signature="e#69896#70122#0" expanded="true" />
-                <element signature="e#71422#71446#0" expanded="true" />
-                <element signature="e#71603#71963#0" expanded="true" />
-                <element signature="e#72259#72291#0" expanded="true" />
-                <element signature="e#72900#72924#0" expanded="true" />
-                <element signature="e#112843#112871#0" expanded="true" />
-                <element signature="e#113429#113453#0" expanded="true" />
-                <element signature="e#114810#115143#0" />
-                <element signature="e#130673#130704#0" expanded="true" />
-                <element signature="e#133797#133821#0" expanded="true" />
-                <element signature="e#134205#134230#0" expanded="true" />
-                <element signature="e#134802#134825#0" expanded="true" />
-                <element signature="e#135789#135813#0" expanded="true" />
-                <element signature="e#151864#151892#0" expanded="true" />
-                <element signature="e#152066#152089#0" expanded="true" />
-                <element signature="e#154451#154482#0" expanded="true" />
-                <element signature="e#155357#155372#0" expanded="true" />
-                <element signature="e#157896#157924#0" expanded="true" />
-                <element signature="e#158250#158269#0" expanded="true" />
-                <element signature="e#158527#158546#0" expanded="true" />
-                <element signature="e#158669#158688#0" expanded="true" />
-                <element signature="e#159166#159185#0" expanded="true" />
-                <element signature="e#159686#159756#0" expanded="true" />
-                <element signature="e#160150#160220#0" expanded="true" />
-                <element signature="e#160808#160842#0" expanded="true" />
-                <element signature="e#161651#161675#0" expanded="true" />
-                <element signature="e#183559#183580#0" expanded="true" />
-                <element signature="e#184831#184852#0" expanded="true" />
-                <element signature="e#187559#187580#0" expanded="true" />
-                <element signature="e#187876#187897#0" expanded="true" />
-                <element signature="e#190403#190424#0" expanded="true" />
-                <element signature="e#190726#190747#0" expanded="true" />
-                <element signature="e#200225#200256#0" expanded="true" />
-                <element signature="e#200691#200734#0" expanded="true" />
-                <element signature="e#227070#227091#0" expanded="true" />
-                <element signature="e#227676#227798#0" expanded="true" />
-                <element signature="e#228138#228254#0" expanded="true" />
-                <element signature="e#229986#230167#0" expanded="true" />
-                <element signature="e#235331#235391#0" expanded="true" />
-                <element signature="e#235963#235991#0" expanded="true" />
-                <element signature="e#237009#237043#0" expanded="true" />
-                <element signature="e#241197#241217#0" expanded="true" />
-                <element signature="e#266225#266245#0" expanded="true" />
-                <element signature="e#267624#267692#0" expanded="true" />
-                <element signature="e#271134#271154#0" expanded="true" />
-                <element signature="e#273045#273069#0" expanded="true" />
-                <element signature="e#288441#288649#0" expanded="true" />
-                <element signature="e#296513#296540#0" expanded="true" />
-                <element signature="e#296609#296633#0" expanded="true" />
-                <element signature="e#297081#297096#0" expanded="true" />
-                <element signature="e#297957#297985#0" expanded="true" />
-                <element signature="e#298242#298266#0" expanded="true" />
-                <element signature="e#323454#323474#0" expanded="true" />
-                <element signature="e#323809#323853#0" expanded="true" />
-                <element signature="e#324340#324384#0" expanded="true" />
-                <element signature="e#328818#328835#0" expanded="true" />
-                <element signature="e#329047#329071#0" expanded="true" />
-                <element signature="e#329132#329175#0" expanded="true" />
-                <element signature="e#329240#329264#0" expanded="true" />
-                <element signature="e#329673#329697#0" expanded="true" />
-                <element signature="e#329794#329818#0" expanded="true" />
-                <element signature="e#329899#329918#0" expanded="true" />
-                <element signature="e#330006#330021#0" expanded="true" />
-                <element signature="e#330114#330133#0" expanded="true" />
-                <element signature="e#330297#330316#0" expanded="true" />
-                <element signature="e#330627#330656#0" expanded="true" />
-                <element signature="e#335250#335279#0" expanded="true" />
-                <element signature="e#335374#335509#0" expanded="true" />
-                <element signature="e#335574#335646#0" expanded="true" />
-                <element signature="e#335809#336535#0" expanded="true" />
-                <element signature="e#336642#336680#0" expanded="true" />
-                <element signature="e#337244#337294#0" expanded="true" />
-                <element signature="e#354250#354280#0" expanded="true" />
-                <element signature="e#369962#370164#0" expanded="true" />
-                <element signature="e#371550#371737#0" expanded="true" />
-                <element signature="e#386086#386310#0" expanded="true" />
-                <element signature="e#411029#411072#0" expanded="true" />
-                <element signature="e#411897#412070#0" expanded="true" />
-                <element signature="e#412534#412723#0" expanded="true" />
-                <element signature="e#414395#414760#0" expanded="true" />
-                <element signature="e#416727#417031#0" expanded="true" />
-                <element signature="e#418405#418522#0" expanded="true" />
-                <element signature="e#418734#418851#0" expanded="true" />
-                <element signature="e#419937#420054#0" expanded="true" />
-                <element signature="e#421109#421317#0" expanded="true" />
-                <element signature="e#423199#423322#0" expanded="true" />
-                <element signature="e#423550#423768#0" expanded="true" />
-                <element signature="e#425215#425916#0" expanded="true" />
-                <element signature="e#425805#425870#0" expanded="true" />
-                <element signature="e#439301#439313#0" expanded="true" />
-                <element signature="e#440826#440838#0" expanded="true" />
-                <element signature="e#443034#443162#0" expanded="true" />
-                <element signature="e#445505#445633#0" expanded="true" />
-                <element signature="e#450608#450860#0" expanded="true" />
-                <element signature="e#454648#454900#0" expanded="true" />
-                <element signature="e#460580#460595#0" expanded="true" />
-                <element signature="e#460924#460939#0" expanded="true" />
-                <element signature="e#461905#461920#0" expanded="true" />
-                <element signature="e#489409#489424#0" expanded="true" />
-                <element signature="e#491278#491293#0" expanded="true" />
-                <element signature="e#512927#513041#0" expanded="true" />
-                <element signature="e#513289#513403#0" expanded="true" />
-                <element signature="e#514299#514413#0" expanded="true" />
-                <element signature="e#514665#514779#0" expanded="true" />
-                <element signature="e#518757#518871#0" expanded="true" />
-                <element signature="e#519120#519234#0" expanded="true" />
-                <element signature="e#520186#520300#0" expanded="true" />
-                <element signature="e#520561#520675#0" expanded="true" />
-                <element signature="e#521604#521718#0" expanded="true" />
-                <element signature="e#521970#522084#0" expanded="true" />
-                <element signature="e#523053#523167#0" expanded="true" />
-                <element signature="e#523431#523545#0" expanded="true" />
-                <element signature="e#532241#532483#0" expanded="true" />
-                <element signature="e#532850#533092#0" expanded="true" />
-                <element signature="e#558473#558603#0" expanded="true" />
-                <element signature="e#562360#562490#0" expanded="true" />
-                <element signature="e#565371#565501#0" expanded="true" />
-                <element signature="e#593066#593068#0" expanded="true" />
-                <element signature="e#593383#593385#0" expanded="true" />
-                <element signature="e#593876#593878#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cxxhttp/dependencies/asio/asio/include/asio/detail/throw_exception.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -419,6 +125,7 @@
         <option value="$PROJECT_DIR$/cxxhttp/include/cxxhttp/network.h" />
         <option value="$PROJECT_DIR$/cxxhttp/include/cxxhttp/httpd.h" />
         <option value="$PROJECT_DIR$/cxxhttp/include/cxxhttp/http-session.h" />
+        <option value="$PROJECT_DIR$/Simple-Web-Server/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/main.cpp" />
       </list>
@@ -445,6 +152,11 @@
             <path>
               <item name="Mandelbrot_Server" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mandelbrot Server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mandelbrot_Server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mandelbrot Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Simple-Web-Server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -478,7 +190,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mandelbrot_Server" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="http:0.0.0.0:8080" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mandelbrot_Server" TARGET_NAME="Mandelbrot_Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mandelbrot_Server" RUN_TARGET_NAME="Mandelbrot_Server">
+    <configuration name="Mandelbrot_Server" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mandelbrot_Server" TARGET_NAME="Mandelbrot_Server" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mandelbrot_Server" RUN_TARGET_NAME="Mandelbrot_Server">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -507,32 +219,32 @@
       <workItem from="1527972325472" duration="6415000" />
       <workItem from="1527979939824" duration="673000" />
       <workItem from="1528104238155" duration="7290000" />
-      <workItem from="1528134611528" duration="11932000" />
+      <workItem from="1528134611528" duration="15593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58880000" />
+    <option name="totallyTimeSpent" value="62541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1223" height="1061" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25148684" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25148684" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49839914" weight="0.07293869" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32875264" />
+      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32875264" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.32980973" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50160086" side_tool="true" weight="0.3372093" />
-      <window_info anchor="bottom" id="CMake" order="5" />
+      <window_info anchor="bottom" id="CMake" order="5" weight="0.32980973" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.27484143" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49839914" visible="true" weight="0.3372093" />
+      <window_info anchor="bottom" id="Run" order="11" sideWeight="0.49839914" weight="0.3372093" />
       <window_info anchor="bottom" id="TODO" order="12" />
       <window_info anchor="right" id="Database" order="0" weight="0.32977587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
@@ -582,23 +294,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/output.json" />
-    <entry file="file://$PROJECT_DIR$/cxxhttp/include/cxxhttp/network.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding>
-            <element signature="e#2044#2083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxhttp/include/cxxhttp/httpd.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mandelbrot.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -610,13 +305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5385">
           <caret line="359" column="17" selection-start-line="359" selection-start-column="10" selection-end-line="359" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cxxhttp/dependencies/asio/asio/include/asio/detail/throw_exception.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -880,28 +568,59 @@
     <entry file="file://$PROJECT_DIR$/mandelbrot.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mandelbrot.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="7" selection-end-line="20" />
+          <caret line="20" selection-start-line="7" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxhttp/include/cxxhttp/httpd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="119" column="45" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxhttp/include/cxxhttp/network.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+          <folding>
+            <element signature="e#2044#2083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cxxhttp/dependencies/asio/asio/include/asio/detail/throw_exception.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Simple-Web-Server/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="61" selection-start-line="58" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="237">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#154#180#0" expanded="true" />

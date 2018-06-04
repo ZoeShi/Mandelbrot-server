@@ -97,6 +97,24 @@ clean: CMakeFiles/Mandelbrot_Server.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory Simple-Web-Server
+
+# Convenience name for "all" pass in the directory.
+Simple-Web-Server/all:
+
+.PHONY : Simple-Web-Server/all
+
+# Convenience name for "clean" pass in the directory.
+Simple-Web-Server/clean:
+
+.PHONY : Simple-Web-Server/clean
+
+# Convenience name for "preinstall" pass in the directory.
+Simple-Web-Server/preinstall:
+
+.PHONY : Simple-Web-Server/preinstall
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.
