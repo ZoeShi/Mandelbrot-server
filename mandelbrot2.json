@@ -1,0 +1,8 @@
+{
+    "RealFrom": -2,
+    "RealTo": 2,
+    "ImaginaryFrom": -2,
+    "ImaginaryTo": 3,
+    "Intervall": 0.05,
+    "MaxIteration": 100
+}

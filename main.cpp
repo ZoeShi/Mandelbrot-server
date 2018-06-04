@@ -23,18 +23,25 @@ std::string process (const std::string &input) {
     int maxiteration = j["MaxIteration"];
     std::vector<int> iterations_vector;
 
-    for (double k = imaginary_to; k > imaginary_from;k -= intervall) {
-        for (double i = real_from; i < real_to; i += intervall) {
+    // To ensure the interval is inclusive (avoid round error) use epsilon value for comparison
+    auto epsilon = intervall / 2.0;
+    for (double i = real_from; i - epsilon < real_to; i += intervall) {
+        for (double k = imaginary_to; k + epsilon > imaginary_from; k -= intervall) {
             auto iterations = Mandelbrot::calc_iterations (std::complex<double>(i, k), maxiteration);
             iterations_vector.push_back(iterations);
         }
     }
+    std::cout << std::endl;
 
-    std::stringstream output_json("output.json");
+    std::stringstream output_json_strstream("output.json");
 
-    nlohmann::json j_vec (iterations_vector);
-    output_json << std::setw(4) << j_vec << std::endl;
-    return output_json.str ();
+    nlohmann::json output_json;
+
+    output_json["response"] = iterations_vector;
+
+    //output_json_strstream << std::setw(4) << output_json << std::endl;
+    output_json_strstream << output_json << std::endl;
+    return output_json_strstream.str ();
 }
 
 
@@ -44,6 +51,8 @@ static void main_servlet (http::sessionData &session, std::smatch &) {
     std::string input = session.content;
     std::string reply = process (input);
     session.reply(200, reply);
+
+
 }
 
 static http::servlet servlet("/", ::main_servlet, "POST");
